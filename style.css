@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #f4f6f9;
+}
+
+
+/* ================= LOGIN ================= */
+
+.login-page {
+    min-height: 100vh;
+    background: url('https://www.rsbudimedika.com/wp-content/uploads/2022/11/Hospital.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-wrapper {
+    text-align: center;
+}
+
+.welcome-text {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, .7);
+}
+
+.login-box {
+    background: rgba(255, 255, 255, .96);
+    width: 360px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .25);
+    text-align: left;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* ================= DASHBOARD LAYOUT ================= */
+
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    /* 🔥 PENTING */
+    width: 100%;
+}
+
+
+/* ================= SIDEBAR ================= */
+
+.sidebar {
+    width: 230px;
+    min-height: 100vh;
+    /* 🔥 BIAR FULL */
+    background: #1e88e5;
+    color: white;
+    flex-shrink: 0;
+}
+
+.sidebar h2 {
+    padding: 20px;
+    text-align: center;
+    background: #1565c0;
+    font-size: 18px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.sidebar a:hover {
+    background: #0d47a1;
+}
+
+
+/* ================= MAIN ================= */
+
+.main {
+    flex: 1;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+
+/* ================= HEADER ================= */
+
+.header {
+    background: #e0c23d;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
+}
+
+.header h2 {
+    color: #1e88e5;
+    margin-bottom: 5px;
+}
+
+.header p {
+    color: #555;
+}
+
+
+/* ================= CONTENT ================= */
+
+.content {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
+}
+
+
+/* ================= FORM ================= */
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+form textarea {
+    resize: none;
+    height: 80px;
+}
+
+form button {
+    margin-top: 20px;
+    background: #1e88e5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+form button:hover {
+    background: #1565c0;
+}
+
+
+/* ================= TABLE ================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background: #1e88e5;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    font-size: 14px;
+}
+
+tr:hover {
+    background: #f7f7f7;
+}
+
+
+/* ================= BUTTON ================= */
+
+.btn-edit {
+    background: #ff9800;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.btn-hapus {
+    background: #e53935;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.btn-edit:hover,
+.btn-hapus:hover {
+    opacity: .85;
+}
