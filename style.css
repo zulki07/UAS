@@ -58,7 +58,6 @@ body {
 .wrapper {
     display: flex;
     min-height: 100vh;
-    /* 🔥 PENTING */
     width: 100%;
 }
 
@@ -68,7 +67,6 @@ body {
 .sidebar {
     width: 230px;
     min-height: 100vh;
-    /* 🔥 BIAR FULL */
     background: #1e88e5;
     color: white;
     flex-shrink: 0;
@@ -223,4 +221,5 @@ tr:hover {
 .btn-edit:hover,
 .btn-hapus:hover {
     opacity: .85;
+
 }
